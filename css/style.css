@@ -422,6 +422,12 @@ ol {
 	position: relative;
 }
 
+.hero12 {	
+	background-image: linear-gradient(#00000000, black), url(../img/hero-bg.png);
+	padding-top: 200px;
+	padding-bottom: 295px;
+	position: relative;
+}
 .hero__text {
 	text-align: center;
 }
