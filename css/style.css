@@ -161,7 +161,6 @@ ol {
 	padding-bottom: 50px;
 }
 .spad3 {
-	padding-bottom: 200px;
 }
 .text-white h1,
 .text-white h2,
@@ -371,7 +370,7 @@ ol {
 }
 
 .header__menu ul li a {
-	font-size: 15px;
+	font-size: 20px;
 	text-transform: uppercase;
 	color: #ffffff;
 	display: block;
@@ -426,12 +425,10 @@ ol {
 .hero12 {	
 	background-image: linear-gradient(#00000000, black), url(../img/hero-bg.png);
 	padding-top: 200px;
-	padding-bottom: 290px;
+	padding-bottom: 0px;
 	position: relative;
     background-size: cover;
-}
-.hero12 {	
-    background-size: cover;
+	height: 40%;
 }
 .hero__text {
 	text-align: center;
@@ -684,7 +681,7 @@ ol {
 
 .track .section-title {
 	margin-top: 35px;
-    margin-bottom: 105px;
+    margin-bottom: 145px;
     text-align: center;
 }
 
@@ -742,7 +739,7 @@ ol {
 	height: 5px;
 	background: #e1e1e1;
 	cursor: pointer;
-	width: 258px;
+	width: 256px;
 }
 
 .player_bars {
@@ -1100,10 +1097,8 @@ ol {
 -----------------------*/
 
 .footer {
-	padding-top: 320px;
+	padding-top: 60px;
 	padding-bottom: 60px;
-	margin-top: -450px;
-	height: 549px;
 }
 .footer1 {
 	padding-top: 550px;
@@ -1112,17 +1107,14 @@ ol {
 	height: 549px;
 }
 .footer2 {
-	padding-top: 550px;
-	padding-bottom: 60px;
-	margin-top: -547px;
-	height: 549px;
+	height: 60%;
 }
 .footer.footer--normal {
 	margin-top: 0;
 }
 
 .footer__address {
-	margin-bottom: 60px;
+	margin-bottom: 10px;
 }
 
 .footer__address ul li {
@@ -1137,7 +1129,7 @@ ol {
 }
 
 .footer__address ul li i {
-	font-size: 18px;
+	font-size: 25px;
 	color: #000000;
 	height: 50px;
 	width: 50px;
@@ -1167,7 +1159,6 @@ ol {
 .footer__social {
 	text-align: center;
 	position: relative;
-	margin-bottom: 50px;
 }
 
 .footer__social::before {
@@ -1190,11 +1181,10 @@ ol {
 }
 
 .footer__social .footer__social__links a {
-	font-size: 18px;
-	color: #000000;
+    font-size: 45px;
+	color: #ffffff;
 	height: 50px;
 	width: 50px;
-	background: #ffffff;
 	border-radius: 50%;
 	line-height: 50px;
 	text-align: center;
@@ -2837,6 +2827,7 @@ p {
 .col-lg-3{
 	display: flex;
     justify-content: center;
+	display: none;
 }
 }
 
@@ -3118,7 +3109,7 @@ p {
 		right: 35px;
 		top: 25px;
 		margin: 0;
-		border-radius: 0;
+		border-radius: 20px;
 		padding: 12px 15px;
 		float: none;
 		background: #1a1a1a;
@@ -3319,7 +3310,7 @@ p {
 }
 
 .song-item {
-    margin: 40px 0px 20px 0px;
+    margin: 20px 0px 20px 0px;
     background-color: #000000;
 }
 .song-item:after {
@@ -3374,4 +3365,23 @@ p {
 	height: 95px;
     text-align: right;
     padding-top: 26px;
+}
+
+.youtube1{
+	background-image: url("../img/youtube/youtube.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+    width: 42px !important;
+    height: 42px !important;
+    margin-bottom: -4px;
+}	
+
+.container2 {
+    height: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: 75px;
 }
