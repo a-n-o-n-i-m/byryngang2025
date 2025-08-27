@@ -429,7 +429,9 @@ ol {
 	padding-bottom: 290px;
 	position: relative;
     background-size: cover;
-
+}
+.hero12 {	
+    background-size: cover;
 }
 .hero__text {
 	text-align: center;
