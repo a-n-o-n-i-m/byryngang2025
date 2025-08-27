@@ -1153,7 +1153,9 @@ ol {
 	font-size: 20px;
 	font-weight: 700;
 	color: #ffffff;
-	padding-top: 10px;
+	padding-top: 14px;
+    font-family: 'Now Regular';
+	
 }
 
 .footer__social {
