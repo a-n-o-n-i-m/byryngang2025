@@ -457,6 +457,7 @@ ol {
 	.spad {
     padding-top: 180px;
     padding-bottom: 100px;
+	background-size: cover;
 	}
 	.container1{
 	width: 700px;
