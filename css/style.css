@@ -1105,6 +1105,12 @@ ol {
 	margin-top: -547px;
 	height: 549px;
 }
+.footer2 {
+	padding-top: 550px;
+	padding-bottom: 60px;
+	margin-top: -547px;
+	height: 549px;
+}
 .footer.footer--normal {
 	margin-top: 0;
 }
@@ -3132,12 +3138,12 @@ p {
 	}
 	.slicknav_nav a:hover {
 		border-radius: 0;
-		background: #5c00ce;
+		background: #00000050;
 		color: #ffffff;
 	}
 	.slicknav_nav .slicknav_row:hover {
 		border-radius: 0;
-		background: #5c00ce;
+		background: #00000050;
 		color: #ffffff;
 	}
 	.service__item {
