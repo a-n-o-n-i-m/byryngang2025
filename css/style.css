@@ -140,7 +140,7 @@ ol {
 }
 
 .section-title h1 {
-	font-size: 93px;
+    font-size: 78px;
 	color: #ffffff;
     font-family: "Rockville Solid Regular";
 	position: absolute;
@@ -3065,6 +3065,7 @@ p {
 /* Wide Mobile = 480px */
 
 @media only screen and (max-width: 767px) {
+	
 	.hero {
 		padding-top: 190px;
 		padding-bottom: 200px;
@@ -3199,6 +3200,23 @@ p {
 	}
 	.footer {
 		background-position: top 0 left 19%;
+	}
+}
+@media only screen and (min-width: 700px) and (max-width: 767px) {
+	
+	.logo2{
+		display: none;
+	}
+	.logo4{
+		display: none;
+	}
+}
+@media only screen and (max-width: 1000px) and (min-width: 767px){
+	.logo2{
+		display: none;
+	}
+	.logo4{
+		display: none;
 	}
 }
 @media only screen and (max-width: 500px) {
