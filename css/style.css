@@ -56,7 +56,11 @@ h1 {
 }
 
 h2 {
-	font-size: 36px;
+	font-size: 90px;
+	margin: 0;
+	color: #ffffff;
+	font-weight: 400;
+    font-family: monospace;
 }
 
 h3 {
@@ -430,9 +434,9 @@ ol {
     background-size: cover;
 }
 .hero123 {	
-	background-image: linear-gradient(#00000000, black), url(../img/hero-bg.png);
-	padding-top: 100px;
-	padding-bottom: 0px;
+	background-image: linear-gradient(#00000077, black), url(../img/hero-bg.png);
+	padding-top: 200px;
+	padding-bottom: 100px;
 	position: relative;
     background-size: cover;
 }
@@ -445,7 +449,112 @@ ol {
 	text-transform: uppercase;
 	letter-spacing: 6px;
 }
+@media only screen and (max-width: 1000px) {
+	.container1{
+	width: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+	}
+.section-title h1 {
+    font-size: 70px;
+    color: #ffffff;
+    font-family: "Rockville Solid Regular";
+    position: absolute;
+    left: 0;
+    top: -45px;
+    width: 100%;
+    z-index: -1;
+}
+.song-item {
+    width: auto;
+}
+h4 {
+    font-size: 15px;
+}
+p {
+    font-size: 11px;
+    font-family: "Now Regular";
+    color: #ffffffc9;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 0 15px 0;
+}
+.song-info-box img {
+    float: left;
+    margin-top: 4px;
+    width: 70px;
+    height: 70px;
+    margin-right: 18px;
+    border-radius: 19px;
+}
+.jp-play:after {
+    position: absolute;
+    display: block;
+    left: 12.5px;
+    top: 8px;
+    width: 16px;
+    height: 19px;
+    background: url(../img/play.png);
+    content: "";
+}
+.jp-state-playing .jp-play:after {
+    background: url(../img/pause.png) !important;
+    left: 10.5px;
+    top: 9px;
+}
+.jp-play {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 2px solid #e1e1e1;
+    border-radius: 50%;
+    margin-top: 5px;
 
+}
+.jp-duration {
+    font-size: 15px;
+    color: #ffffff;
+    position: absolute;
+    right: -41px;
+    top: 18px;
+}
+.jp-seek-bar>div {
+    height: 5px;
+    background: #e1e1e1;
+    cursor: pointer;
+    width: 250px;
+}
+.player_bars {
+    width: auto;
+    display: table;
+    padding-left: 50px;
+    position: relative;
+    padding-top: 25px;
+    float: left;
+    margin-right: 30px;
+        padding-right: 2px;
+}
+.player_controls_box {
+    width: 50px;
+    float: left;
+	margin-right: 0px;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    align-items: flex-end;
+    align-content: center;
+    flex-wrap: nowrap;
+
+}
+	.song-item {
+    	width: auto;
+}
+}
 .hero__text h1 {
 	font-size: 110px;
 	font-family: "Rockville Solid Regular";
@@ -475,15 +584,44 @@ ol {
 	.hero__text h1 {
         font-size: 35px;
 	}
+	.hero {
+        padding-top: 200px;
+        padding-bottom: 0px;
+	}
+	.logo1{
+		display: none;
+	}
+	.logo3{
+		display: none;
+	}
+	.logo5{
+		display: none;
+	}
+    .hero__text h1 {
+        font-size: 85px;
+    }
+.track {
+    padding-top: 0 !important;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
 }
 @media only screen and (max-width: 500px) {
 	.hero__text h1 {
         font-size: 35px;
 	}
+	.hero__text h2{
+		font-size: 90px;
+		font-family: "Rockville Solid Regular";
+		color: #ffffff;
+		margin-bottom: 20px;
+		margin-top: 22px;
+	}
+
 }
 @media only screen and (max-width: 400px) {
 	.hero__text h1 {
-        font-size: 25px;
+        font-size: 30px;
 	}
 .header__logo {
     padding-left: 0px;
@@ -570,7 +708,14 @@ ol {
 		bottom: -10px;
 	}
 }
-
+@media only screen and (min-width: 1000px){
+	.logo2{
+		display: none;
+	}
+	.logo4{
+		display: none;
+	}
+}
 /*---------------------
   Events
 -----------------------*/
@@ -675,7 +820,7 @@ ol {
 -----------------------*/
 
 .track {
-	padding-top: 120px;
+	padding-top: 0px;
 	padding-bottom: 40px;
 	overflow: hidden;
 }
@@ -2701,121 +2846,16 @@ ol {
 
 
 .container1 {
-    width: 1000px;
+    width: 60%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
 	}
 .song-item{
-	width: 970px;
-}
-@media only screen and (max-width: 1000px) {
-	.container1{
 	width: auto;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-	}
-.section-title h1 {
-    font-size: 70px;
-    color: #ffffff;
-    font-family: "Rockville Solid Regular";
-    position: absolute;
-    left: 0;
-    top: -45px;
-    width: 100%;
-    z-index: -1;
 }
-.song-item {
-    width: auto;
-}
-h4 {
-    font-size: 15px;
-}
-p {
-    font-size: 11px;
-    font-family: "Now Regular";
-    color: #ffffffc9;
-    font-weight: 400;
-    line-height: 26px;
-    margin: 0 0 15px 0;
-}
-.song-info-box img {
-    float: left;
-    margin-top: 4px;
-    width: 70px;
-    height: 70px;
-    margin-right: 18px;
-    border-radius: 19px;
-}
-.jp-play:after {
-    position: absolute;
-    display: block;
-    left: 12.5px;
-    top: 8px;
-    width: 16px;
-    height: 19px;
-    background: url(../img/play.png);
-    content: "";
-}
-.jp-state-playing .jp-play:after {
-    background: url(../img/pause.png) !important;
-    left: 10.5px;
-    top: 9px;
-}
-.jp-play {
-    position: relative;
-    height: 40px;
-    width: 40px;
-    background: transparent;
-    border: 2px solid #e1e1e1;
-    border-radius: 50%;
-    margin-top: 5px;
 
-}
-.jp-duration {
-    font-size: 15px;
-    color: #ffffff;
-    position: absolute;
-    right: -41px;
-    top: 18px;
-}
-.jp-seek-bar>div {
-    height: 5px;
-    background: #e1e1e1;
-    cursor: pointer;
-    width: 250px;
-}
-.player_bars {
-    width: auto;
-    display: table;
-    padding-left: 50px;
-    position: relative;
-    padding-top: 25px;
-    float: left;
-    margin-right: 30px;
-        padding-right: 2px;
-}
-.player_controls_box {
-    width: 50px;
-    float: left;
-	margin-right: 0px;
-}
-.row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    align-items: flex-end;
-    align-content: center;
-    flex-wrap: nowrap;
-
-}
-	.song-item {
-    	width: auto;
-}
-}
 @media only screen and (max-width: 500px) {
 	.row1 {
     display: -ms-flexbox;
@@ -3164,8 +3204,20 @@ p {
 @media only screen and (max-width: 500px) {
 	.hero {
         padding-top: 200px;
-        padding-bottom: 0px;
+        padding-bottom: 100px;
 	}
+	.logo1{
+		display: none;
+	}
+	.logo3{
+		display: none;
+	}
+	.logo5{
+		display: none;
+	}
+    .hero__text h1 {
+        font-size: 70px;
+    }
 }
 
 /* Small Device = 320px */

@@ -44,6 +44,22 @@
     align-items: flex-end;
     justify-content: space-around;
 }
+.row2 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+}
+.logo1,
+.logo2,
+.logo3,
+.logo4,
+.logo5   {
+    justify-content: space-around;
+
+}
 .low{
     padding: 25px 0 26px
 }
