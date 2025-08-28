@@ -1,0 +1,25 @@
+.song-info-box1 img {
+    float: left;
+    margin-top: 4px;
+    width: 300px;
+    height: auto;
+    margin-right: 18px;
+    border-radius: 19px;
+}
+.track1 {
+    padding-top: 120px;
+    padding-bottom: 40px;
+    overflow: hidden;
+    height: 75%;
+}
+.footercard {
+    height: 25%;
+}
+.containercard {
+    width: 1000px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100%;
+}

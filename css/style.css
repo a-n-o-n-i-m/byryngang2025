@@ -428,7 +428,13 @@ ol {
 	padding-bottom: 0px;
 	position: relative;
     background-size: cover;
-	height: 40%;
+}
+.hero123 {	
+	background-image: linear-gradient(#00000000, black), url(../img/hero-bg.png);
+	padding-top: 100px;
+	padding-bottom: 0px;
+	position: relative;
+    background-size: cover;
 }
 .hero__text {
 	text-align: center;
@@ -3384,4 +3390,24 @@ p {
     margin-left: auto;
     margin-top: auto;
     margin-bottom: 75px;
+}
+
+.button1{
+	    border: #000000;
+    background-color: #000000;
+	padding-left: 0;
+	padding-right: 0;
+}
+.song-info-box1 img {
+    float: left;
+    margin-top: 4px;
+    width: 80px;
+    height: 80px;
+    margin-right: 18px;
+    border-radius: 19px;
+}
+.track1 {
+    padding-top: 120px;
+    padding-bottom: 40px;
+    overflow: hidden;
 }
