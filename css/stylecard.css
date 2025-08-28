@@ -23,3 +23,6 @@
     margin-left: auto;
     height: 100%;
 }
+.single_player_containercard:last-child {
+    /* margin-bottom: 0; */
+}

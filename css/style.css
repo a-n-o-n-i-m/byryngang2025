@@ -462,11 +462,6 @@ ol {
 	.hero__text h1 {
         font-size: 50px;
 	}
-	.spad {
-    padding-top: 180px;
-    padding-bottom: 100px;
-	background-size: cover;
-	}
 	.container1{
 	width: 700px;
     padding-right: 15px;
@@ -824,6 +819,7 @@ ol {
 
 .single_player_container:last-child {
 	margin-bottom: 0;
+	width: 100%;
 }
 
 .single_player_container h4 {
@@ -2800,6 +2796,7 @@ p {
     padding-top: 25px;
     float: left;
     margin-right: 30px;
+        padding-right: 2px;
 }
 .player_controls_box {
     width: 50px;
@@ -3016,14 +3013,15 @@ p {
 		padding-bottom: 776px;
 	}
 	.footer {
-		margin-top: -740px;
 		background-position: top 0 left 19%;
 	}
 	.jp-seek-bar>div {
 
 	}
 }
-
+.jp-seek-bar{
+	width: 85% !important;
+}
 /* Wide Mobile = 480px */
 
 @media only screen and (max-width: 767px) {
@@ -3293,7 +3291,7 @@ p {
     border-radius: 19px;
 }
 .single_player_container:last-child {
-    margin-bottom: 13px;
+    margin-bottom: 0px;
 }
 }
 
@@ -3330,8 +3328,6 @@ p {
     overflow: hidden;
 }
 .single_player_container {
-    margin-top: 22px;
-    padding-left: 10px;
 }
 @media (min-width: 992px) {
     .col-lg-4 {
@@ -3342,6 +3338,7 @@ p {
 }
 @media (min-width: 992px) {
     .col-lg-6 {
+		display: flex;
 		height: 95px;
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
@@ -3350,14 +3347,17 @@ p {
 }
 @media (min-width: 200px) {
     .col-lg-6 {
-		height: 90px;
-        max-width: 20%;
+		display: flex;
+        margin-bottom: auto;
+        margin-top: auto;
     }
 }
 @media (min-width: 600px) {
     .col-lg-6 {
-		height: 90px;
-        max-width: 70%;
+		display: flex;
+        margin-bottom: auto;
+        margin-top: auto;
+        align-items: center;
     }
 }
 @media (min-width: 992px) {
@@ -3397,17 +3397,4 @@ p {
     background-color: #000000;
 	padding-left: 0;
 	padding-right: 0;
-}
-.song-info-box1 img {
-    float: left;
-    margin-top: 4px;
-    width: 80px;
-    height: 80px;
-    margin-right: 18px;
-    border-radius: 19px;
-}
-.track1 {
-    padding-top: 120px;
-    padding-bottom: 40px;
-    overflow: hidden;
 }
