@@ -68,7 +68,7 @@ h3 {
 }
 
 h4 {
-	font-size: 24px;
+	font-size: 20px;
 }
 
 h5 {
@@ -450,6 +450,14 @@ ol {
 	letter-spacing: 6px;
 }
 @media only screen and (max-width: 1000px) {
+    .col-lg-6 {
+        display: none; 
+        margin-bottom: auto;
+        margin-top: auto;
+        align-items: center;
+        justify-content: space-between;
+        align-items: stretch;
+    }
 	.container1{
 	width: auto;
     padding-right: 15px;
@@ -843,20 +851,24 @@ p {
 
 .jp-play {
 	position: relative;
-	height: 50px;
-	width: 50px;
+	height: 45px;
+	width: 45px;
 	background: transparent;
 	border: 2px solid #e1e1e1;
 	border-radius: 50%;
 }
 
+.jp-progress{
+	padding-right: 42px;
+}
+
 .jp-play:after {
 	position: absolute;
 	display: block;
-	left: 17px;
-	top: 12px;
-	width: 16px;
-	height: 20px;
+	left: 15px;
+    top: 11px;
+    width: 16px;
+    height: 20px;
 	background: url(../img/play.png);
 	content: "";
 }
@@ -885,17 +897,18 @@ p {
 	height: 5px;
 	background: #e1e1e1;
 	cursor: pointer;
-	width: 256px;
+	width: auto;
 }
 
 .player_bars {
-	width: 350px;
+    margin-top: 20px;
+    width: 100%;
 	display: table;
 	padding-left: 50px;
 	position: relative;
 	padding-top: 25px;
 	float: left;
-	margin-right: 30px;
+	margin-right: auto;
 }
 
 .jp-play-bar {
@@ -922,9 +935,12 @@ p {
 }
 
 .player_controls_box {
-	width: 50px;
 	float: left;
-	margin-right: 20px;
+	margin-top: 3px;
+margin-top: auto;
+margin-bottom: auto;
+    margin-right: 10px;
+
 }
 
 .jp-mute {
@@ -2846,7 +2862,7 @@ p {
 
 
 .container1 {
-    width: 60%;
+    width: 80%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -3060,7 +3076,6 @@ p {
 	}
 }
 .jp-seek-bar{
-	width: 85% !important;
 }
 /* Wide Mobile = 480px */
 
@@ -3247,6 +3262,12 @@ p {
     margin-right: 18px;
     border-radius: 19px;
 }
+@media only screen and (max-width: 600px) {
+	.player_bars {
+		display: none;
+	}
+}
+
 @media only screen and (max-width: 479px) {
 	.col-lg-4{
 	position: relative;
@@ -3386,6 +3407,9 @@ p {
 .song-item {
     margin: 20px 0px 20px 0px;
     background-color: #000000;
+	display: flex;
+    justify-content: space-between;
+
 }
 .song-item:after {
     margin: 40px 0px 20px 0px;
@@ -3403,16 +3427,16 @@ p {
     .col-lg-4 {
         -ms-flex: 0 0 33.333333%;
         flex: 0 0 33.333333%;
-        max-width: 33.333333%;
+        max-width: 50%;
     }
 }
 @media (min-width: 992px) {
     .col-lg-6 {
 		display: flex;
 		height: 95px;
-        -ms-flex: 0 0 50%;
-        flex: 0 0 50%;
-        max-width: 50%;
+        -ms-flex: 0 0 66%;
+        flex: 0 0 66%;
+        max-width: 61%;
     }
 }
 @media (min-width: 200px) {
@@ -3423,12 +3447,7 @@ p {
     }
 }
 @media (min-width: 600px) {
-    .col-lg-6 {
-		display: flex;
-        margin-bottom: auto;
-        margin-top: auto;
-        align-items: center;
-    }
+
 }
 @media (min-width: 992px) {
     .col-lg-2 {
@@ -3467,4 +3486,20 @@ p {
     background-color: #000000;
 	padding-left: 0;
 	padding-right: 0;
+}
+@media only screen and (max-width: 1000px) {
+    .player_bars {
+        width: 75%;
+        display: none;
+        padding-left: 50px;
+        position: relative;
+        padding-top: 25px;
+        float: left;
+        margin-right: 30px;
+	    }
+    .col-lg-6 {
+        display: none;
+        margin-bottom: auto;
+        margin-top: auto;
+    }
 }

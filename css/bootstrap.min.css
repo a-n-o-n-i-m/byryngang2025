@@ -45,12 +45,21 @@
     justify-content: space-around;
 }
 .row2 {
-    display: -ms-flexbox;
+        display: -ms-flexbox;
+    display: contents;
+        -ms-flex-wrap: wrap;
+        align-items: flex-end;
+        align-content: center;
+        flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.row3 {
+    width: 75%;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
     align-items: flex-end;
-    justify-content: center;
+    justify-content: flex-end;
+
 }
 .logo1,
 .logo2,
@@ -90,3 +99,8 @@
         width: auto;
     }
 }
+
+.col-lg-6{
+    padding-right: 0;
+    padding-left: 0;
+ }

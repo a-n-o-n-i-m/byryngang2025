@@ -18,7 +18,6 @@
     <link rel="stylesheet" href="./css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="./css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="./css/style.css" type="text/css">
-    <link rel="stylesheet" href="./css/stylecard.css" type="text/css">
 
 </head>
 
@@ -44,8 +43,9 @@
                     <div class="header__nav">
                         <nav class="header__menu mobile-menu">
                             <ul>
-                                <li class="active"><a href="./index.html">Home</a></li>
+                                <li><a href="./index.html">Home</a></li>
                                 <li><a href="./beats.html">Beats</a></li>
+                                <li class="active"><a href="./music.html">Music</a></li>
                                 <li><a href="./about.html">About</a></li>
                             </ul>
                         </nav>
@@ -59,28 +59,39 @@
             <div id="mobile-menu-wrap"></div>
         </div>
     </header>
-    <section class="track1 spad">    
-        <div class="containercard">
-
+    <section class="hero123 spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-121">
+                    <div class="hero__text">
+                        <h2>Music</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="track spad">    
+        <div class="container1">
             <div class="song-item">
-				<div class="row">
-					<div class="song-info-box1">
-						<img src="img/songs/1.jpg" alt="">
+				<div class="row row2">
+					<div class="col-lg-4">
+						<div class="song-info-box">
+							<img src="img/songs/1.jpg" alt="">
+							<div class="song-info">
+								<a href="./music.html" class="button1"><h4>BYRYNGANG</h4></a>
+								<p>140bpm</p>
+							</div>
+						</div>
 					</div>
-                    <div class="col-lg-4">
-                        <div class="song-info-box1">
-                            <div class="song-info">
-                                <h4>BYRYNGANG</h4>
-                                <p>140bpm</p>
-                            </div>
-						    <div class="single_player_containercard">
+										<div class="player_controls_box">
+											<button class="jp-play player_button" tabindex="0"></button>
+										</div>
+					<div class="col-lg-6">
+						<div class="single_player_container">
 							<div class="single_player">
 								<div class="jp-jplayer jplayer" data-ancestor=".jp_container_1" data-url="music-files/1.mp3"></div>
 								<div class="jp-audio jp_container_1" role="application" aria-label="media player">
 									<div class="jp-gui jp-interface">
-										<div class="player_controls_box">
-											<button class="jp-play player_button" tabindex="0"></button>
-										</div>
 										<div class="player_bars">
 											<div class="jp-progress">
 												<div class="jp-seek-bar">
@@ -98,15 +109,14 @@
 									</div>
 								</div>
 							</div>
-						    </div>
-                        </div>
-                    </div>
+						</div>
+					</div>
 				</div>
 			</div>
         </div>
     </section>
 
-    <footer class="footercard spad3" >
+    <footer class="footer spad3" >
         <div class="container">
             <div class="row row1">
                 <div class="col-lg-3 col-md-6">
@@ -143,11 +153,10 @@
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+
+
     <script src="js/jquery.jplayer.min.js"></script>
     <script src="js/jplayerInit.js"></script>
-
 </body>
-
-
 
 </html>
