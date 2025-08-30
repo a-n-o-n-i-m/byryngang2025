@@ -901,12 +901,12 @@ p {
 }
 
 .player_bars {
-    margin-top: 20px;
+    margin-top: 0px;
     width: 100%;
 	display: table;
 	padding-left: 50px;
 	position: relative;
-	padding-top: 25px;
+	padding-top: 0px;
 	float: left;
 	margin-right: auto;
 }
@@ -931,7 +931,7 @@ p {
 	color: #ffffff;
 	position: absolute;
 	right: 0;
-	top: 18px;
+    top: -6px;
 }
 
 .player_controls_box {
@@ -1326,7 +1326,7 @@ margin-bottom: auto;
 
 .footer__social::before {
 	position: absolute;
-	left: -46px;
+	left: 0px;
 	top: 3px;
 	width: 1px;
 	height: 130px;
@@ -2859,7 +2859,12 @@ margin-bottom: auto;
 }
 
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
+.jp-interface{
+	display: flex;
+    align-items: center;
+    justify-content: flex-end;
 
+}
 
 .container1 {
     width: 80%;
@@ -2870,6 +2875,13 @@ margin-bottom: auto;
 	}
 .song-item{
 	width: auto;
+}
+@media only screen and (max-width: 768px) {
+.col-lg-3{
+	display: flex;
+    justify-content: center;
+	display: none;
+}
 }
 
 @media only screen and (max-width: 500px) {
@@ -2882,11 +2894,6 @@ margin-bottom: auto;
     flex-wrap: nowrap;
     flex-direction: column;
 
-}
-.col-lg-3{
-	display: flex;
-    justify-content: center;
-	display: none;
 }
 }
 
@@ -3408,7 +3415,9 @@ margin-bottom: auto;
     margin: 20px 0px 20px 0px;
     background-color: #000000;
 	display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+
 
 }
 .song-item:after {
@@ -3466,8 +3475,8 @@ margin-bottom: auto;
 	background-image: url("../img/youtube/youtube.png");
 	background-repeat: no-repeat;
 	background-size: cover;
-    width: 42px !important;
-    height: 42px !important;
+    width: 44px !important;
+    height: 44px !important;
     margin-bottom: -4px;
 }	
 
@@ -3502,4 +3511,32 @@ margin-bottom: auto;
         margin-bottom: auto;
         margin-top: auto;
     }
+}
+@media (min-width: 992px) {
+    .col-lg-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 100.333333%;
+        max-width: 95%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    }
+}
+.rowfooter {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.col-lg-4footer {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 29%;
+        max-width: 95%;
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
 }
